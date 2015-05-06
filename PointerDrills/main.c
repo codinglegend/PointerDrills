@@ -8,8 +8,17 @@
 
 #include <stdio.h>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+int main()
+{
+    int a = 13;
+    int b = 5;
+    int c = 10;
+    
+    int *pointer1 = a;
+    int *pointer2 = b;
+    int *pointer3 = c;
+    int *pointer4 = c;
+    
+
     return 0;
 }
